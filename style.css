@@ -1,0 +1,177 @@
+h1 {
+  color: rgb(4, 4, 4);
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: gray;
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 32%;
+  float: left;
+
+}
+
+.mid-box {
+  background-color: gray;
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 32%;
+  float: left;
+
+
+
+}
+
+.lastbox {
+  background-color: gray;
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 32%;
+  float: left;
+
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+.name h3 {
+
+  float: right;
+  border: 2px solid #070707;
+  background-color: rgb(103, 205, 92);
+  clear: both;
+  margin: 6px;
+  padding: 6px 31px;
+  position: relative;
+  top: -8px;
+  right: -7px;
+}
+.content {
+    clear: both;
+    padding: 14px;
+    z-index: -1;
+}
+
+/* @media (min-width: 992px) {
+  .box {
+    background-color: gray;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 32%;
+    float: left;
+
+  }
+
+  .mid-box {
+    background-color: gray;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 32%;
+    float: left;
+
+
+
+  }
+
+  .lastbox {
+    background-color: gray;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 32%;
+    float: left;
+
+  }
+} */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .box {
+    background-color: gray;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+
+  }
+
+  .mid-box {
+    background-color: gray;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+
+
+
+  }
+
+  .lastbox {
+    background-color: gray;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 100%;
+    /* float: left; */
+
+  }
+
+}
+
+@media (max-width: 767px) {
+  .box {
+    background-color: gray;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 98%;
+    float: left;
+
+  }
+
+  .mid-box {
+    background-color: gray;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 98%;
+    float: left;
+
+
+
+  }
+
+  .lastbox {
+    background-color: gray;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 98%;
+    float: left;
+
+  }
+}
